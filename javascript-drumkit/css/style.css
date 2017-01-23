@@ -4,7 +4,58 @@ html {
   background-size: cover;
 }
 body,html {
-  margin: 0;
+  margin: 0;html {
+    font-size: 10px;
+    background: url(http://i.imgur.com/b9r5sEL.jpg) bottom center;
+    background-size: cover;
+}
+body, html {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.keys {
+    display: flex;
+    min-height: 100vh;
+
+    flex: 1;
+    align-items: center;
+    justify-content: center;
+}
+
+.key {
+    font-size: 1.5rem;
+    width: 10rem;
+    margin: 1rem;
+    padding: 1rem .5rem;
+    transition: all .07s ease;
+    text-align: center;
+    color: white;
+    border: .4rem solid #000;
+    border-radius: .5rem;
+    background: rgba(0,0,0,.4);
+    text-shadow: 0 0 .5rem #000;
+}
+
+.playing {
+    transform: scale(1.1);
+    border-color: #fc0;
+    box-shadow: 0 0 1rem #fc0;
+}
+
+kbd {
+    font-size: 4rem;
+    display: block;
+}
+
+.sound {
+    font-size: 1.2rem;
+    letter-spacing: .1rem;
+    text-transform: uppercase;
+    color: #fc0;
+}
+
   padding: 0;
   font-family: sans-serif;
 }
